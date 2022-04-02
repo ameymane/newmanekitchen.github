@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+}
+.Wrapper{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.Navbar{
+    margin-right:8%;
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;   
+}
+a{
+    color: aliceblue;
+    text-decoration:none;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.Navbar li{
+    margin-left: 2%;
+    margin-top: 3%;
+    
+}
+.Header{
+    height: 10%;
+    width: 10%;
+    color: rgb(197, 118, 14);
+    margin-left: 8%;
+}
+.Header img{
+    height: 60%;
+    width: 60%;
+    margin-right: 10%;
+    
+}
+h2{
+    color: aliceblue;
+    margin-top: 10%;
+    
+}
