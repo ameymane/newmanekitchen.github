@@ -1,5 +1,7 @@
 *{
-    padding: 0%;
+    padding: 0;
+    margin: 0;
+
 }
 .Wrapper{
     height: 100vh;
@@ -8,10 +10,10 @@
 }
 
 .Navbar{
+    width: 100%;
+    height: 100px;
     margin-right:8%;
-    list-style: none;
     display: flex;
-    justify-content:flex-end;   
 }
 a{
     color: aliceblue;
@@ -24,15 +26,23 @@ a{
     margin-top: 3%;
     
 }
+.navlist{
+    width: 60%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;   
+    margin-right:8%;
+}
 .Header{
-    height: 10%;
-    width: 10%;
+    height: 40%;
+    width: 100%;
     color: rgb(197, 118, 14);
     margin-left: 8%;
 }
 .Header img{
-    height: 60%;
-    width: 60%;
+    height: 100%;
+    width: 10%;
     margin-right: 10%;
     
 }
