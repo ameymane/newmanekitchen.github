@@ -1,6 +1,8 @@
 *{
     padding: 0;
     margin: 0;
+ 
+
 
 }
 /*akshaytest*/
@@ -8,6 +10,13 @@
     height: 100vh;
     width: 100%;
     background-color: black;
+}
+.logosec{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Navbar{
@@ -40,11 +49,12 @@ a{
     width: 100%;
     color: rgb(197, 118, 14);
     margin-left: 8%;
+    display: flex;
 }
 .Header img{
     height: 100%;
     width: 10%;
-    margin-right: 10%;
+    margin-left:5%;
     
 }
 h2{
